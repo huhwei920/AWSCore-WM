@@ -121,8 +121,6 @@
 		9782D87F2C53B2050064ADEB /* AWSS3TransferUtilityDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D86B2C53B2050064ADEB /* AWSS3TransferUtilityDatabaseHelper.m */; };
 		9782D8802C53B2050064ADEB /* AWSS3TransferUtilityTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D86D2C53B2050064ADEB /* AWSS3TransferUtilityTasks.m */; };
 		9782D8812C53B2050064ADEB /* AWSS3TransferUtilityTasks+Completion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D86F2C53B2050064ADEB /* AWSS3TransferUtilityTasks+Completion.m */; };
-		9782D8822C53B2050064ADEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9782D8702C53B2050064ADEB /* Info.plist */; };
-		9782D8832C53B2050064ADEB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9782D8712C53B2050064ADEB /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -355,8 +353,6 @@
 		9782D86D2C53B2050064ADEB /* AWSS3TransferUtilityTasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSS3TransferUtilityTasks.m; sourceTree = "<group>"; };
 		9782D86E2C53B2050064ADEB /* AWSS3TransferUtilityTasks+Completion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWSS3TransferUtilityTasks+Completion.h"; sourceTree = "<group>"; };
 		9782D86F2C53B2050064ADEB /* AWSS3TransferUtilityTasks+Completion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWSS3TransferUtilityTasks+Completion.m"; sourceTree = "<group>"; };
-		9782D8702C53B2050064ADEB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9782D8712C53B2050064ADEB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -801,8 +797,6 @@
 				9782D86D2C53B2050064ADEB /* AWSS3TransferUtilityTasks.m */,
 				9782D86E2C53B2050064ADEB /* AWSS3TransferUtilityTasks+Completion.h */,
 				9782D86F2C53B2050064ADEB /* AWSS3TransferUtilityTasks+Completion.m */,
-				9782D8702C53B2050064ADEB /* Info.plist */,
-				9782D8712C53B2050064ADEB /* PrivacyInfo.xcprivacy */,
 			);
 			path = AWSS3;
 			sourceTree = "<group>";
@@ -876,7 +870,6 @@
 				9782D56D2C53A2510064ADEB /* Info.plist in Resources */,
 				9782D43A2C53A2290064ADEB /* Assets.xcassets in Resources */,
 				9782D56A2C53A2510064ADEB /* LICENCE.md in Resources */,
-				9782D8832C53B2050064ADEB /* PrivacyInfo.xcprivacy in Resources */,
 				9782D54C2C53A2510064ADEB /* README.md in Resources */,
 				9782D5622C53A2510064ADEB /* LICENSE in Resources */,
 				9782D55E2C53A2510064ADEB /* Info.plist in Resources */,
@@ -885,7 +878,6 @@
 				9782D5512C53A2510064ADEB /* README.md in Resources */,
 				9782D56E2C53A2510064ADEB /* PrivacyInfo.xcprivacy in Resources */,
 				9782D4382C53A2270064ADEB /* Base in Resources */,
-				9782D8822C53B2050064ADEB /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

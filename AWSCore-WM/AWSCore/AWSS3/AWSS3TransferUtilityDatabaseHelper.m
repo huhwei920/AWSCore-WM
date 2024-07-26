@@ -13,7 +13,7 @@
 // permissions and limitations under the License.
 //
 
-#import <AWSCore/AWSFMDB.h>
+#import "AWSFMDB.h"
 #import "AWSS3TransferUtilityDatabaseHelper.h"
 #import "AWSS3TransferUtility.h"
 #import "AWSS3TransferUtilityTasks.h"
