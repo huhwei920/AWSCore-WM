@@ -13,7 +13,7 @@
 // permissions and limitations under the License.
 //
 
-#import <AWSCore/AWSURLRequestRetryHandler.h>
+#import "AWSURLRequestRetryHandler.h"
 
 @interface AWSS3RequestRetryHandler : AWSURLRequestRetryHandler
 

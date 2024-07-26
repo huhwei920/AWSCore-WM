@@ -22,9 +22,9 @@
 #import "AWSS3TransferUtilityTasks+Completion.h"
 #import "AWSS3TransferUtility_private.h"
 
-#import <AWSCore/AWSFMDB.h>
-#import <AWSCore/AWSSynchronizedMutableDictionary.h>
-#import <AWSCore/AWSXMLDictionary.h>
+#import "AWSFMDB.h"
+#import "AWSSynchronizedMutableDictionary.h"
+#import "AWSXMLDictionary.h"
 
 #include <stdio.h>
 

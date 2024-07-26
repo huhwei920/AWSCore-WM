@@ -14,7 +14,7 @@
 //
 
 #import "AWSS3Resources.h"
-#import <AWSCore/AWSCocoaLumberjack.h>
+#import "AWSCocoaLumberjack.h"
 
 @interface AWSS3Resources ()
 
