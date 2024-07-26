@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.libraries    = 'z', 'sqlite3'
   s.requires_arc = true
 
-  s.source_files = 'AWSCore/*.{h,m}', 'AWSCore/**/*.{h,m}', 'AWSCore/Logging/Extensions/*.swift'
-  s.private_header_files = 'AWSCore/XMLWriter/**/*.h', 'AWSCore/FMDB/AWSFMDatabase+Private.h', 'AWSCore/Fabric/*.h', 'AWSCore/Mantle/extobjc/*.h', 'AWSCore/CognitoIdentity/AWSCognitoIdentity+Fabric.h'
-  s.resource_bundle = { 'AWSCore' => ['AWSCore/PrivacyInfo.xcprivacy']}
+  s.source_files = 'AWSCore-WM/AWSCore/*.{h,m}', 'AWSCore-WM/AWSCore/**/*.{h,m}', 'AWSCore-WM/AWSCore/Logging/Extensions/*.swift'
+  s.private_header_files = 'AWSCore-WM/AWSCore/XMLWriter/**/*.h', 'AWSCore-WM/AWSCore/FMDB/AWSFMDatabase+Private.h', 'AWSCore-WM/AWSCore/Fabric/*.h', 'AWSCore-WM/AWSCore/Mantle/extobjc/*.h', 'AWSCore-WM/AWSCore/CognitoIdentity/AWSCognitoIdentity+Fabric.h'
+  s.resource_bundle = { 'AWSCore-WM' => ['AWSCore-WM/AWSCore/PrivacyInfo.xcprivacy']}
 end

@@ -1,0 +1,1104 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9782D42C2C53A2270064ADEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D42B2C53A2270064ADEB /* AppDelegate.m */; };
+		9782D42F2C53A2270064ADEB /* DocumentBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D42E2C53A2270064ADEB /* DocumentBrowserViewController.m */; };
+		9782D4322C53A2270064ADEB /* DocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4312C53A2270064ADEB /* DocumentViewController.m */; };
+		9782D4352C53A2270064ADEB /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4342C53A2270064ADEB /* Document.m */; };
+		9782D4382C53A2270064ADEB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9782D4372C53A2270064ADEB /* Base */; };
+		9782D43A2C53A2290064ADEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9782D4392C53A2290064ADEB /* Assets.xcassets */; };
+		9782D43D2C53A2290064ADEB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9782D43C2C53A2290064ADEB /* Base */; };
+		9782D4402C53A2290064ADEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D43F2C53A2290064ADEB /* main.m */; };
+		9782D5142C53A2510064ADEB /* AWSCredentialsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4472C53A2510064ADEB /* AWSCredentialsProvider.m */; };
+		9782D5152C53A2510064ADEB /* AWSIdentityProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4492C53A2510064ADEB /* AWSIdentityProvider.m */; };
+		9782D5162C53A2510064ADEB /* AWSSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D44B2C53A2510064ADEB /* AWSSignature.m */; };
+		9782D5172C53A2510064ADEB /* AWSBolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D44E2C53A2510064ADEB /* AWSBolts.m */; };
+		9782D5182C53A2510064ADEB /* AWSCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4502C53A2510064ADEB /* AWSCancellationToken.m */; };
+		9782D5192C53A2510064ADEB /* AWSCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4522C53A2510064ADEB /* AWSCancellationTokenRegistration.m */; };
+		9782D51A2C53A2510064ADEB /* AWSCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4542C53A2510064ADEB /* AWSCancellationTokenSource.m */; };
+		9782D51B2C53A2510064ADEB /* AWSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4562C53A2510064ADEB /* AWSExecutor.m */; };
+		9782D51C2C53A2510064ADEB /* AWSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4592C53A2510064ADEB /* AWSTask.m */; };
+		9782D51D2C53A2510064ADEB /* AWSTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D45B2C53A2510064ADEB /* AWSTaskCompletionSource.m */; };
+		9782D51E2C53A2510064ADEB /* AWSCognitoIdentity+Fabric.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D45F2C53A2510064ADEB /* AWSCognitoIdentity+Fabric.m */; };
+		9782D51F2C53A2510064ADEB /* AWSCognitoIdentityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4612C53A2510064ADEB /* AWSCognitoIdentityModel.m */; };
+		9782D5202C53A2510064ADEB /* AWSCognitoIdentityResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4632C53A2510064ADEB /* AWSCognitoIdentityResources.m */; };
+		9782D5212C53A2510064ADEB /* AWSCognitoIdentityService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4652C53A2510064ADEB /* AWSCognitoIdentityService.m */; };
+		9782D5222C53A2510064ADEB /* AWSFMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D46D2C53A2510064ADEB /* AWSFMDatabase.m */; };
+		9782D5232C53A2510064ADEB /* AWSFMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4702C53A2510064ADEB /* AWSFMDatabaseAdditions.m */; };
+		9782D5242C53A2510064ADEB /* AWSFMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4722C53A2510064ADEB /* AWSFMDatabasePool.m */; };
+		9782D5252C53A2510064ADEB /* AWSFMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4742C53A2510064ADEB /* AWSFMDatabaseQueue.m */; };
+		9782D5262C53A2510064ADEB /* AWSFMDB+AWSHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4772C53A2510064ADEB /* AWSFMDB+AWSHelpers.m */; };
+		9782D5272C53A2510064ADEB /* AWSFMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4792C53A2510064ADEB /* AWSFMResultSet.m */; };
+		9782D5282C53A2510064ADEB /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9782D47A2C53A2510064ADEB /* LICENSE.txt */; };
+		9782D5292C53A2510064ADEB /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 9782D47B2C53A2510064ADEB /* README.markdown */; };
+		9782D52A2C53A2510064ADEB /* AWSGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D47E2C53A2510064ADEB /* AWSGZIP.m */; };
+		9782D52B2C53A2510064ADEB /* LICENCE.md in Resources */ = {isa = PBXBuildFile; fileRef = 9782D47F2C53A2510064ADEB /* LICENCE.md */; };
+		9782D52C2C53A2510064ADEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9782D4802C53A2510064ADEB /* README.md */; };
+		9782D52D2C53A2510064ADEB /* AWSKSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4832C53A2510064ADEB /* AWSKSReachability.m */; };
+		9782D52E2C53A2510064ADEB /* AWSDDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4862C53A2510064ADEB /* AWSDDContextFilterLogFormatter.m */; };
+		9782D52F2C53A2510064ADEB /* AWSDDContextFilterLogFormatter+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4882C53A2510064ADEB /* AWSDDContextFilterLogFormatter+Deprecated.m */; };
+		9782D5302C53A2510064ADEB /* AWSDDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D48A2C53A2510064ADEB /* AWSDDDispatchQueueLogFormatter.m */; };
+		9782D5312C53A2510064ADEB /* AWSDDFileLogger+Buffering.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D48C2C53A2510064ADEB /* AWSDDFileLogger+Buffering.m */; };
+		9782D5322C53A2510064ADEB /* AWSDDLog+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9782D48E2C53A2510064ADEB /* AWSDDLog+Optional.swift */; };
+		9782D5332C53A2510064ADEB /* AWSCLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4922C53A2510064ADEB /* AWSCLIColor.m */; };
+		9782D5342C53A2510064ADEB /* AWSDDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4952C53A2510064ADEB /* AWSDDAbstractDatabaseLogger.m */; };
+		9782D5352C53A2510064ADEB /* AWSDDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4972C53A2510064ADEB /* AWSDDASLLogCapture.m */; };
+		9782D5362C53A2510064ADEB /* AWSDDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4992C53A2510064ADEB /* AWSDDASLLogger.m */; };
+		9782D5372C53A2510064ADEB /* AWSDDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D49C2C53A2510064ADEB /* AWSDDFileLogger.m */; };
+		9782D5382C53A2510064ADEB /* AWSDDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D49F2C53A2510064ADEB /* AWSDDLog.m */; };
+		9782D5392C53A2510064ADEB /* AWSDDLoggerNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4A22C53A2510064ADEB /* AWSDDLoggerNames.m */; };
+		9782D53A2C53A2510064ADEB /* AWSDDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4A42C53A2510064ADEB /* AWSDDMultiFormatter.m */; };
+		9782D53B2C53A2510064ADEB /* AWSDDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4A62C53A2510064ADEB /* AWSDDOSLogger.m */; };
+		9782D53C2C53A2510064ADEB /* AWSDDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4A82C53A2510064ADEB /* AWSDDTTYLogger.m */; };
+		9782D53D2C53A2510064ADEB /* AWSEXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4AC2C53A2510064ADEB /* AWSEXTRuntimeExtensions.m */; };
+		9782D53E2C53A2510064ADEB /* AWSEXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4AE2C53A2510064ADEB /* AWSEXTScope.m */; };
+		9782D53F2C53A2510064ADEB /* AWSMTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4B32C53A2510064ADEB /* AWSMTLJSONAdapter.m */; };
+		9782D5402C53A2510064ADEB /* AWSMTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4B52C53A2510064ADEB /* AWSMTLManagedObjectAdapter.m */; };
+		9782D5412C53A2510064ADEB /* AWSMTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4B72C53A2510064ADEB /* AWSMTLModel.m */; };
+		9782D5422C53A2510064ADEB /* AWSMTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4B92C53A2510064ADEB /* AWSMTLModel+NSCoding.m */; };
+		9782D5432C53A2510064ADEB /* AWSMTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4BB2C53A2510064ADEB /* AWSMTLReflection.m */; };
+		9782D5442C53A2510064ADEB /* AWSMTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4BD2C53A2510064ADEB /* AWSMTLValueTransformer.m */; };
+		9782D5452C53A2510064ADEB /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 9782D4BE2C53A2510064ADEB /* LICENSE.md */; };
+		9782D5462C53A2510064ADEB /* NSArray+AWSMTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4C02C53A2510064ADEB /* NSArray+AWSMTLManipulationAdditions.m */; };
+		9782D5472C53A2510064ADEB /* NSDictionary+AWSMTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4C22C53A2510064ADEB /* NSDictionary+AWSMTLManipulationAdditions.m */; };
+		9782D5482C53A2510064ADEB /* NSError+AWSMTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4C42C53A2510064ADEB /* NSError+AWSMTLModelException.m */; };
+		9782D5492C53A2510064ADEB /* NSObject+AWSMTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4C62C53A2510064ADEB /* NSObject+AWSMTLComparisonAdditions.m */; };
+		9782D54A2C53A2510064ADEB /* NSValueTransformer+AWSMTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4C82C53A2510064ADEB /* NSValueTransformer+AWSMTLInversionAdditions.m */; };
+		9782D54B2C53A2510064ADEB /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4CA2C53A2510064ADEB /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m */; };
+		9782D54C2C53A2510064ADEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9782D4CB2C53A2510064ADEB /* README.md */; };
+		9782D54D2C53A2510064ADEB /* AWSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4CE2C53A2510064ADEB /* AWSNetworking.m */; };
+		9782D54E2C53A2510064ADEB /* AWSNetworkingHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4D02C53A2510064ADEB /* AWSNetworkingHelpers.m */; };
+		9782D54F2C53A2510064ADEB /* AWSURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4D22C53A2510064ADEB /* AWSURLSessionManager.m */; };
+		9782D5502C53A2510064ADEB /* LICENCE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9782D4D42C53A2510064ADEB /* LICENCE.txt */; };
+		9782D5512C53A2510064ADEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9782D4D52C53A2510064ADEB /* README.md */; };
+		9782D5522C53A2510064ADEB /* AWSSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4D82C53A2510064ADEB /* AWSSerialization.m */; };
+		9782D5532C53A2510064ADEB /* AWSTimestampSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4DA2C53A2510064ADEB /* AWSTimestampSerialization.m */; };
+		9782D5542C53A2510064ADEB /* AWSURLRequestRetryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4DC2C53A2510064ADEB /* AWSURLRequestRetryHandler.m */; };
+		9782D5552C53A2510064ADEB /* AWSURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4DE2C53A2510064ADEB /* AWSURLRequestSerialization.m */; };
+		9782D5562C53A2510064ADEB /* AWSURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4E02C53A2510064ADEB /* AWSURLResponseSerialization.m */; };
+		9782D5572C53A2510064ADEB /* AWSValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4E22C53A2510064ADEB /* AWSValidation.m */; };
+		9782D5582C53A2510064ADEB /* AWSClientContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4E52C53A2510064ADEB /* AWSClientContext.m */; };
+		9782D5592C53A2510064ADEB /* AWSInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4E72C53A2510064ADEB /* AWSInfo.m */; };
+		9782D55A2C53A2510064ADEB /* AWSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4E92C53A2510064ADEB /* AWSService.m */; };
+		9782D55B2C53A2510064ADEB /* AWSSTSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4EE2C53A2510064ADEB /* AWSSTSModel.m */; };
+		9782D55C2C53A2510064ADEB /* AWSSTSResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4F02C53A2510064ADEB /* AWSSTSResources.m */; };
+		9782D55D2C53A2510064ADEB /* AWSSTSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4F22C53A2510064ADEB /* AWSSTSService.m */; };
+		9782D55E2C53A2510064ADEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9782D4F32C53A2510064ADEB /* Info.plist */; };
+		9782D55F2C53A2510064ADEB /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9782D4F52C53A2510064ADEB /* LICENSE.txt */; };
+		9782D5602C53A2510064ADEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9782D4F62C53A2510064ADEB /* README.md */; };
+		9782D5612C53A2510064ADEB /* AWSUICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4F92C53A2510064ADEB /* AWSUICKeyChainStore.m */; };
+		9782D5622C53A2510064ADEB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9782D4FA2C53A2510064ADEB /* LICENSE */; };
+		9782D5632C53A2510064ADEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9782D4FB2C53A2510064ADEB /* README.md */; };
+		9782D5642C53A2510064ADEB /* AWSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D4FE2C53A2510064ADEB /* AWSCategory.m */; };
+		9782D5652C53A2510064ADEB /* AWSLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5002C53A2510064ADEB /* AWSLogging.m */; };
+		9782D5662C53A2510064ADEB /* AWSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5022C53A2510064ADEB /* AWSModel.m */; };
+		9782D5672C53A2510064ADEB /* AWSNSCodingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5042C53A2510064ADEB /* AWSNSCodingUtilities.m */; };
+		9782D5682C53A2510064ADEB /* AWSSynchronizedMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5062C53A2510064ADEB /* AWSSynchronizedMutableDictionary.m */; };
+		9782D5692C53A2510064ADEB /* AWSXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5092C53A2510064ADEB /* AWSXMLDictionary.m */; };
+		9782D56A2C53A2510064ADEB /* LICENCE.md in Resources */ = {isa = PBXBuildFile; fileRef = 9782D50A2C53A2510064ADEB /* LICENCE.md */; };
+		9782D56B2C53A2510064ADEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9782D50B2C53A2510064ADEB /* README.md */; };
+		9782D56C2C53A2510064ADEB /* AWSXMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D50E2C53A2510064ADEB /* AWSXMLWriter.m */; };
+		9782D56D2C53A2510064ADEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9782D5112C53A2510064ADEB /* Info.plist */; };
+		9782D56E2C53A2510064ADEB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9782D5122C53A2510064ADEB /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9782D4272C53A2270064ADEB /* AWSCore-WM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AWSCore-WM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9782D42A2C53A2270064ADEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9782D42B2C53A2270064ADEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9782D42D2C53A2270064ADEB /* DocumentBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentBrowserViewController.h; sourceTree = "<group>"; };
+		9782D42E2C53A2270064ADEB /* DocumentBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentBrowserViewController.m; sourceTree = "<group>"; };
+		9782D4302C53A2270064ADEB /* DocumentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentViewController.h; sourceTree = "<group>"; };
+		9782D4312C53A2270064ADEB /* DocumentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentViewController.m; sourceTree = "<group>"; };
+		9782D4332C53A2270064ADEB /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		9782D4342C53A2270064ADEB /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		9782D4372C53A2270064ADEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9782D4392C53A2290064ADEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9782D43C2C53A2290064ADEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9782D43E2C53A2290064ADEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9782D43F2C53A2290064ADEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9782D4462C53A2510064ADEB /* AWSCredentialsProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCredentialsProvider.h; sourceTree = "<group>"; };
+		9782D4472C53A2510064ADEB /* AWSCredentialsProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSCredentialsProvider.m; sourceTree = "<group>"; };
+		9782D4482C53A2510064ADEB /* AWSIdentityProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSIdentityProvider.h; sourceTree = "<group>"; };
+		9782D4492C53A2510064ADEB /* AWSIdentityProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSIdentityProvider.m; sourceTree = "<group>"; };
+		9782D44A2C53A2510064ADEB /* AWSSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSSignature.h; sourceTree = "<group>"; };
+		9782D44B2C53A2510064ADEB /* AWSSignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSSignature.m; sourceTree = "<group>"; };
+		9782D44D2C53A2510064ADEB /* AWSBolts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSBolts.h; sourceTree = "<group>"; };
+		9782D44E2C53A2510064ADEB /* AWSBolts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSBolts.m; sourceTree = "<group>"; };
+		9782D44F2C53A2510064ADEB /* AWSCancellationToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCancellationToken.h; sourceTree = "<group>"; };
+		9782D4502C53A2510064ADEB /* AWSCancellationToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSCancellationToken.m; sourceTree = "<group>"; };
+		9782D4512C53A2510064ADEB /* AWSCancellationTokenRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCancellationTokenRegistration.h; sourceTree = "<group>"; };
+		9782D4522C53A2510064ADEB /* AWSCancellationTokenRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		9782D4532C53A2510064ADEB /* AWSCancellationTokenSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCancellationTokenSource.h; sourceTree = "<group>"; };
+		9782D4542C53A2510064ADEB /* AWSCancellationTokenSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSCancellationTokenSource.m; sourceTree = "<group>"; };
+		9782D4552C53A2510064ADEB /* AWSExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSExecutor.h; sourceTree = "<group>"; };
+		9782D4562C53A2510064ADEB /* AWSExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSExecutor.m; sourceTree = "<group>"; };
+		9782D4572C53A2510064ADEB /* AWSGeneric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSGeneric.h; sourceTree = "<group>"; };
+		9782D4582C53A2510064ADEB /* AWSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSTask.h; sourceTree = "<group>"; };
+		9782D4592C53A2510064ADEB /* AWSTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSTask.m; sourceTree = "<group>"; };
+		9782D45A2C53A2510064ADEB /* AWSTaskCompletionSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSTaskCompletionSource.h; sourceTree = "<group>"; };
+		9782D45B2C53A2510064ADEB /* AWSTaskCompletionSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSTaskCompletionSource.m; sourceTree = "<group>"; };
+		9782D45D2C53A2510064ADEB /* AWSCognitoIdentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCognitoIdentity.h; sourceTree = "<group>"; };
+		9782D45E2C53A2510064ADEB /* AWSCognitoIdentity+Fabric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWSCognitoIdentity+Fabric.h"; sourceTree = "<group>"; };
+		9782D45F2C53A2510064ADEB /* AWSCognitoIdentity+Fabric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWSCognitoIdentity+Fabric.m"; sourceTree = "<group>"; };
+		9782D4602C53A2510064ADEB /* AWSCognitoIdentityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCognitoIdentityModel.h; sourceTree = "<group>"; };
+		9782D4612C53A2510064ADEB /* AWSCognitoIdentityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSCognitoIdentityModel.m; sourceTree = "<group>"; };
+		9782D4622C53A2510064ADEB /* AWSCognitoIdentityResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCognitoIdentityResources.h; sourceTree = "<group>"; };
+		9782D4632C53A2510064ADEB /* AWSCognitoIdentityResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSCognitoIdentityResources.m; sourceTree = "<group>"; };
+		9782D4642C53A2510064ADEB /* AWSCognitoIdentityService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCognitoIdentityService.h; sourceTree = "<group>"; };
+		9782D4652C53A2510064ADEB /* AWSCognitoIdentityService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSCognitoIdentityService.m; sourceTree = "<group>"; };
+		9782D4672C53A2510064ADEB /* FABAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABAttributes.h; sourceTree = "<group>"; };
+		9782D4682C53A2510064ADEB /* FABKitProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABKitProtocol.h; sourceTree = "<group>"; };
+		9782D4692C53A2510064ADEB /* Fabric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fabric.h; sourceTree = "<group>"; };
+		9782D46A2C53A2510064ADEB /* Fabric+FABKits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fabric+FABKits.h"; sourceTree = "<group>"; };
+		9782D46C2C53A2510064ADEB /* AWSFMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSFMDatabase.h; sourceTree = "<group>"; };
+		9782D46D2C53A2510064ADEB /* AWSFMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSFMDatabase.m; sourceTree = "<group>"; };
+		9782D46E2C53A2510064ADEB /* AWSFMDatabase+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWSFMDatabase+Private.h"; sourceTree = "<group>"; };
+		9782D46F2C53A2510064ADEB /* AWSFMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSFMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9782D4702C53A2510064ADEB /* AWSFMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSFMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9782D4712C53A2510064ADEB /* AWSFMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSFMDatabasePool.h; sourceTree = "<group>"; };
+		9782D4722C53A2510064ADEB /* AWSFMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSFMDatabasePool.m; sourceTree = "<group>"; };
+		9782D4732C53A2510064ADEB /* AWSFMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSFMDatabaseQueue.h; sourceTree = "<group>"; };
+		9782D4742C53A2510064ADEB /* AWSFMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSFMDatabaseQueue.m; sourceTree = "<group>"; };
+		9782D4752C53A2510064ADEB /* AWSFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSFMDB.h; sourceTree = "<group>"; };
+		9782D4762C53A2510064ADEB /* AWSFMDB+AWSHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWSFMDB+AWSHelpers.h"; sourceTree = "<group>"; };
+		9782D4772C53A2510064ADEB /* AWSFMDB+AWSHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWSFMDB+AWSHelpers.m"; sourceTree = "<group>"; };
+		9782D4782C53A2510064ADEB /* AWSFMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSFMResultSet.h; sourceTree = "<group>"; };
+		9782D4792C53A2510064ADEB /* AWSFMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSFMResultSet.m; sourceTree = "<group>"; };
+		9782D47A2C53A2510064ADEB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		9782D47B2C53A2510064ADEB /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		9782D47D2C53A2510064ADEB /* AWSGZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSGZIP.h; sourceTree = "<group>"; };
+		9782D47E2C53A2510064ADEB /* AWSGZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSGZIP.m; sourceTree = "<group>"; };
+		9782D47F2C53A2510064ADEB /* LICENCE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENCE.md; sourceTree = "<group>"; };
+		9782D4802C53A2510064ADEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9782D4822C53A2510064ADEB /* AWSKSReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSKSReachability.h; sourceTree = "<group>"; };
+		9782D4832C53A2510064ADEB /* AWSKSReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSKSReachability.m; sourceTree = "<group>"; };
+		9782D4852C53A2510064ADEB /* AWSDDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSDDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		9782D4862C53A2510064ADEB /* AWSDDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSDDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		9782D4872C53A2510064ADEB /* AWSDDContextFilterLogFormatter+Deprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWSDDContextFilterLogFormatter+Deprecated.h"; sourceTree = "<group>"; };
+		9782D4882C53A2510064ADEB /* AWSDDContextFilterLogFormatter+Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWSDDContextFilterLogFormatter+Deprecated.m"; sourceTree = "<group>"; };
+		9782D4892C53A2510064ADEB /* AWSDDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSDDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		9782D48A2C53A2510064ADEB /* AWSDDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSDDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		9782D48B2C53A2510064ADEB /* AWSDDFileLogger+Buffering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWSDDFileLogger+Buffering.h"; sourceTree = "<group>"; };
+		9782D48C2C53A2510064ADEB /* AWSDDFileLogger+Buffering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWSDDFileLogger+Buffering.m"; sourceTree = "<group>"; };
+		9782D48D2C53A2510064ADEB /* AWSDDFileLogger+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWSDDFileLogger+Internal.h"; sourceTree = "<group>"; };
+		9782D48E2C53A2510064ADEB /* AWSDDLog+Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AWSDDLog+Optional.swift"; sourceTree = "<group>"; };
+		9782D48F2C53A2510064ADEB /* AWSDDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSDDMultiFormatter.h; sourceTree = "<group>"; };
+		9782D4912C53A2510064ADEB /* AWSCLIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCLIColor.h; sourceTree = "<group>"; };
+		9782D4922C53A2510064ADEB /* AWSCLIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSCLIColor.m; sourceTree = "<group>"; };
+		9782D4932C53A2510064ADEB /* AWSCocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCocoaLumberjack.h; sourceTree = "<group>"; };
+		9782D4942C53A2510064ADEB /* AWSDDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSDDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		9782D4952C53A2510064ADEB /* AWSDDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSDDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		9782D4962C53A2510064ADEB /* AWSDDASLLogCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSDDASLLogCapture.h; sourceTree = "<group>"; };
+		9782D4972C53A2510064ADEB /* AWSDDASLLogCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSDDASLLogCapture.m; sourceTree = "<group>"; };
+		9782D4982C53A2510064ADEB /* AWSDDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSDDASLLogger.h; sourceTree = "<group>"; };
+		9782D4992C53A2510064ADEB /* AWSDDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSDDASLLogger.m; sourceTree = "<group>"; };
+		9782D49A2C53A2510064ADEB /* AWSDDAssertMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSDDAssertMacros.h; sourceTree = "<group>"; };
+		9782D49B2C53A2510064ADEB /* AWSDDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSDDFileLogger.h; sourceTree = "<group>"; };
+		9782D49C2C53A2510064ADEB /* AWSDDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSDDFileLogger.m; sourceTree = "<group>"; };
+		9782D49D2C53A2510064ADEB /* AWSDDLegacyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSDDLegacyMacros.h; sourceTree = "<group>"; };
+		9782D49E2C53A2510064ADEB /* AWSDDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSDDLog.h; sourceTree = "<group>"; };
+		9782D49F2C53A2510064ADEB /* AWSDDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSDDLog.m; sourceTree = "<group>"; };
+		9782D4A02C53A2510064ADEB /* AWSDDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWSDDLog+LOGV.h"; sourceTree = "<group>"; };
+		9782D4A12C53A2510064ADEB /* AWSDDLoggerNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSDDLoggerNames.h; sourceTree = "<group>"; };
+		9782D4A22C53A2510064ADEB /* AWSDDLoggerNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSDDLoggerNames.m; sourceTree = "<group>"; };
+		9782D4A32C53A2510064ADEB /* AWSDDLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSDDLogMacros.h; sourceTree = "<group>"; };
+		9782D4A42C53A2510064ADEB /* AWSDDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSDDMultiFormatter.m; sourceTree = "<group>"; };
+		9782D4A52C53A2510064ADEB /* AWSDDOSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSDDOSLogger.h; sourceTree = "<group>"; };
+		9782D4A62C53A2510064ADEB /* AWSDDOSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSDDOSLogger.m; sourceTree = "<group>"; };
+		9782D4A72C53A2510064ADEB /* AWSDDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSDDTTYLogger.h; sourceTree = "<group>"; };
+		9782D4A82C53A2510064ADEB /* AWSDDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSDDTTYLogger.m; sourceTree = "<group>"; };
+		9782D4AA2C53A2510064ADEB /* AWSEXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSEXTKeyPathCoding.h; sourceTree = "<group>"; };
+		9782D4AB2C53A2510064ADEB /* AWSEXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSEXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		9782D4AC2C53A2510064ADEB /* AWSEXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSEXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		9782D4AD2C53A2510064ADEB /* AWSEXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSEXTScope.h; sourceTree = "<group>"; };
+		9782D4AE2C53A2510064ADEB /* AWSEXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSEXTScope.m; sourceTree = "<group>"; };
+		9782D4AF2C53A2510064ADEB /* AWSmetamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSmetamacros.h; sourceTree = "<group>"; };
+		9782D4B12C53A2510064ADEB /* AWSMantle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSMantle.h; sourceTree = "<group>"; };
+		9782D4B22C53A2510064ADEB /* AWSMTLJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSMTLJSONAdapter.h; sourceTree = "<group>"; };
+		9782D4B32C53A2510064ADEB /* AWSMTLJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSMTLJSONAdapter.m; sourceTree = "<group>"; };
+		9782D4B42C53A2510064ADEB /* AWSMTLManagedObjectAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSMTLManagedObjectAdapter.h; sourceTree = "<group>"; };
+		9782D4B52C53A2510064ADEB /* AWSMTLManagedObjectAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSMTLManagedObjectAdapter.m; sourceTree = "<group>"; };
+		9782D4B62C53A2510064ADEB /* AWSMTLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSMTLModel.h; sourceTree = "<group>"; };
+		9782D4B72C53A2510064ADEB /* AWSMTLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSMTLModel.m; sourceTree = "<group>"; };
+		9782D4B82C53A2510064ADEB /* AWSMTLModel+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWSMTLModel+NSCoding.h"; sourceTree = "<group>"; };
+		9782D4B92C53A2510064ADEB /* AWSMTLModel+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWSMTLModel+NSCoding.m"; sourceTree = "<group>"; };
+		9782D4BA2C53A2510064ADEB /* AWSMTLReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSMTLReflection.h; sourceTree = "<group>"; };
+		9782D4BB2C53A2510064ADEB /* AWSMTLReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSMTLReflection.m; sourceTree = "<group>"; };
+		9782D4BC2C53A2510064ADEB /* AWSMTLValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSMTLValueTransformer.h; sourceTree = "<group>"; };
+		9782D4BD2C53A2510064ADEB /* AWSMTLValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSMTLValueTransformer.m; sourceTree = "<group>"; };
+		9782D4BE2C53A2510064ADEB /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		9782D4BF2C53A2510064ADEB /* NSArray+AWSMTLManipulationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AWSMTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		9782D4C02C53A2510064ADEB /* NSArray+AWSMTLManipulationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AWSMTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		9782D4C12C53A2510064ADEB /* NSDictionary+AWSMTLManipulationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AWSMTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		9782D4C22C53A2510064ADEB /* NSDictionary+AWSMTLManipulationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+AWSMTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		9782D4C32C53A2510064ADEB /* NSError+AWSMTLModelException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+AWSMTLModelException.h"; sourceTree = "<group>"; };
+		9782D4C42C53A2510064ADEB /* NSError+AWSMTLModelException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+AWSMTLModelException.m"; sourceTree = "<group>"; };
+		9782D4C52C53A2510064ADEB /* NSObject+AWSMTLComparisonAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AWSMTLComparisonAdditions.h"; sourceTree = "<group>"; };
+		9782D4C62C53A2510064ADEB /* NSObject+AWSMTLComparisonAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AWSMTLComparisonAdditions.m"; sourceTree = "<group>"; };
+		9782D4C72C53A2510064ADEB /* NSValueTransformer+AWSMTLInversionAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+AWSMTLInversionAdditions.h"; sourceTree = "<group>"; };
+		9782D4C82C53A2510064ADEB /* NSValueTransformer+AWSMTLInversionAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValueTransformer+AWSMTLInversionAdditions.m"; sourceTree = "<group>"; };
+		9782D4C92C53A2510064ADEB /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
+		9782D4CA2C53A2510064ADEB /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
+		9782D4CB2C53A2510064ADEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9782D4CD2C53A2510064ADEB /* AWSNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSNetworking.h; sourceTree = "<group>"; };
+		9782D4CE2C53A2510064ADEB /* AWSNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSNetworking.m; sourceTree = "<group>"; };
+		9782D4CF2C53A2510064ADEB /* AWSNetworkingHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSNetworkingHelpers.h; sourceTree = "<group>"; };
+		9782D4D02C53A2510064ADEB /* AWSNetworkingHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSNetworkingHelpers.m; sourceTree = "<group>"; };
+		9782D4D12C53A2510064ADEB /* AWSURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSURLSessionManager.h; sourceTree = "<group>"; };
+		9782D4D22C53A2510064ADEB /* AWSURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSURLSessionManager.m; sourceTree = "<group>"; };
+		9782D4D42C53A2510064ADEB /* LICENCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE.txt; sourceTree = "<group>"; };
+		9782D4D52C53A2510064ADEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9782D4D72C53A2510064ADEB /* AWSSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSSerialization.h; sourceTree = "<group>"; };
+		9782D4D82C53A2510064ADEB /* AWSSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSSerialization.m; sourceTree = "<group>"; };
+		9782D4D92C53A2510064ADEB /* AWSTimestampSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSTimestampSerialization.h; sourceTree = "<group>"; };
+		9782D4DA2C53A2510064ADEB /* AWSTimestampSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSTimestampSerialization.m; sourceTree = "<group>"; };
+		9782D4DB2C53A2510064ADEB /* AWSURLRequestRetryHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSURLRequestRetryHandler.h; sourceTree = "<group>"; };
+		9782D4DC2C53A2510064ADEB /* AWSURLRequestRetryHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSURLRequestRetryHandler.m; sourceTree = "<group>"; };
+		9782D4DD2C53A2510064ADEB /* AWSURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSURLRequestSerialization.h; sourceTree = "<group>"; };
+		9782D4DE2C53A2510064ADEB /* AWSURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSURLRequestSerialization.m; sourceTree = "<group>"; };
+		9782D4DF2C53A2510064ADEB /* AWSURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSURLResponseSerialization.h; sourceTree = "<group>"; };
+		9782D4E02C53A2510064ADEB /* AWSURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSURLResponseSerialization.m; sourceTree = "<group>"; };
+		9782D4E12C53A2510064ADEB /* AWSValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSValidation.h; sourceTree = "<group>"; };
+		9782D4E22C53A2510064ADEB /* AWSValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSValidation.m; sourceTree = "<group>"; };
+		9782D4E42C53A2510064ADEB /* AWSClientContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSClientContext.h; sourceTree = "<group>"; };
+		9782D4E52C53A2510064ADEB /* AWSClientContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSClientContext.m; sourceTree = "<group>"; };
+		9782D4E62C53A2510064ADEB /* AWSInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSInfo.h; sourceTree = "<group>"; };
+		9782D4E72C53A2510064ADEB /* AWSInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSInfo.m; sourceTree = "<group>"; };
+		9782D4E82C53A2510064ADEB /* AWSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSService.h; sourceTree = "<group>"; };
+		9782D4E92C53A2510064ADEB /* AWSService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSService.m; sourceTree = "<group>"; };
+		9782D4EA2C53A2510064ADEB /* AWSServiceEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSServiceEnum.h; sourceTree = "<group>"; };
+		9782D4EC2C53A2510064ADEB /* AWSSTS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSSTS.h; sourceTree = "<group>"; };
+		9782D4ED2C53A2510064ADEB /* AWSSTSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSSTSModel.h; sourceTree = "<group>"; };
+		9782D4EE2C53A2510064ADEB /* AWSSTSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSSTSModel.m; sourceTree = "<group>"; };
+		9782D4EF2C53A2510064ADEB /* AWSSTSResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSSTSResources.h; sourceTree = "<group>"; };
+		9782D4F02C53A2510064ADEB /* AWSSTSResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSSTSResources.m; sourceTree = "<group>"; };
+		9782D4F12C53A2510064ADEB /* AWSSTSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSSTSService.h; sourceTree = "<group>"; };
+		9782D4F22C53A2510064ADEB /* AWSSTSService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSSTSService.m; sourceTree = "<group>"; };
+		9782D4F32C53A2510064ADEB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9782D4F52C53A2510064ADEB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		9782D4F62C53A2510064ADEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9782D4F82C53A2510064ADEB /* AWSUICKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSUICKeyChainStore.h; sourceTree = "<group>"; };
+		9782D4F92C53A2510064ADEB /* AWSUICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSUICKeyChainStore.m; sourceTree = "<group>"; };
+		9782D4FA2C53A2510064ADEB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9782D4FB2C53A2510064ADEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9782D4FD2C53A2510064ADEB /* AWSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCategory.h; sourceTree = "<group>"; };
+		9782D4FE2C53A2510064ADEB /* AWSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSCategory.m; sourceTree = "<group>"; };
+		9782D4FF2C53A2510064ADEB /* AWSLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSLogging.h; sourceTree = "<group>"; };
+		9782D5002C53A2510064ADEB /* AWSLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSLogging.m; sourceTree = "<group>"; };
+		9782D5012C53A2510064ADEB /* AWSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSModel.h; sourceTree = "<group>"; };
+		9782D5022C53A2510064ADEB /* AWSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSModel.m; sourceTree = "<group>"; };
+		9782D5032C53A2510064ADEB /* AWSNSCodingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSNSCodingUtilities.h; sourceTree = "<group>"; };
+		9782D5042C53A2510064ADEB /* AWSNSCodingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSNSCodingUtilities.m; sourceTree = "<group>"; };
+		9782D5052C53A2510064ADEB /* AWSSynchronizedMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSSynchronizedMutableDictionary.h; sourceTree = "<group>"; };
+		9782D5062C53A2510064ADEB /* AWSSynchronizedMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSSynchronizedMutableDictionary.m; sourceTree = "<group>"; };
+		9782D5082C53A2510064ADEB /* AWSXMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSXMLDictionary.h; sourceTree = "<group>"; };
+		9782D5092C53A2510064ADEB /* AWSXMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSXMLDictionary.m; sourceTree = "<group>"; };
+		9782D50A2C53A2510064ADEB /* LICENCE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENCE.md; sourceTree = "<group>"; };
+		9782D50B2C53A2510064ADEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9782D50D2C53A2510064ADEB /* AWSXMLWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSXMLWriter.h; sourceTree = "<group>"; };
+		9782D50E2C53A2510064ADEB /* AWSXMLWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSXMLWriter.m; sourceTree = "<group>"; };
+		9782D5102C53A2510064ADEB /* AWSCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCore.h; sourceTree = "<group>"; };
+		9782D5112C53A2510064ADEB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9782D5122C53A2510064ADEB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9782D4242C53A2270064ADEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9782D41E2C53A2270064ADEB = {
+			isa = PBXGroup;
+			children = (
+				9782D5132C53A2510064ADEB /* AWSCore */,
+				9782D4292C53A2270064ADEB /* AWSCore-WM */,
+				9782D4282C53A2270064ADEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9782D4282C53A2270064ADEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4272C53A2270064ADEB /* AWSCore-WM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9782D4292C53A2270064ADEB /* AWSCore-WM */ = {
+			isa = PBXGroup;
+			children = (
+				9782D42A2C53A2270064ADEB /* AppDelegate.h */,
+				9782D42B2C53A2270064ADEB /* AppDelegate.m */,
+				9782D42D2C53A2270064ADEB /* DocumentBrowserViewController.h */,
+				9782D42E2C53A2270064ADEB /* DocumentBrowserViewController.m */,
+				9782D4302C53A2270064ADEB /* DocumentViewController.h */,
+				9782D4312C53A2270064ADEB /* DocumentViewController.m */,
+				9782D4332C53A2270064ADEB /* Document.h */,
+				9782D4342C53A2270064ADEB /* Document.m */,
+				9782D4362C53A2270064ADEB /* Main.storyboard */,
+				9782D4392C53A2290064ADEB /* Assets.xcassets */,
+				9782D43B2C53A2290064ADEB /* LaunchScreen.storyboard */,
+				9782D43E2C53A2290064ADEB /* Info.plist */,
+				9782D43F2C53A2290064ADEB /* main.m */,
+			);
+			path = "AWSCore-WM";
+			sourceTree = "<group>";
+		};
+		9782D44C2C53A2510064ADEB /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4462C53A2510064ADEB /* AWSCredentialsProvider.h */,
+				9782D4472C53A2510064ADEB /* AWSCredentialsProvider.m */,
+				9782D4482C53A2510064ADEB /* AWSIdentityProvider.h */,
+				9782D4492C53A2510064ADEB /* AWSIdentityProvider.m */,
+				9782D44A2C53A2510064ADEB /* AWSSignature.h */,
+				9782D44B2C53A2510064ADEB /* AWSSignature.m */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		9782D45C2C53A2510064ADEB /* Bolts */ = {
+			isa = PBXGroup;
+			children = (
+				9782D44D2C53A2510064ADEB /* AWSBolts.h */,
+				9782D44E2C53A2510064ADEB /* AWSBolts.m */,
+				9782D44F2C53A2510064ADEB /* AWSCancellationToken.h */,
+				9782D4502C53A2510064ADEB /* AWSCancellationToken.m */,
+				9782D4512C53A2510064ADEB /* AWSCancellationTokenRegistration.h */,
+				9782D4522C53A2510064ADEB /* AWSCancellationTokenRegistration.m */,
+				9782D4532C53A2510064ADEB /* AWSCancellationTokenSource.h */,
+				9782D4542C53A2510064ADEB /* AWSCancellationTokenSource.m */,
+				9782D4552C53A2510064ADEB /* AWSExecutor.h */,
+				9782D4562C53A2510064ADEB /* AWSExecutor.m */,
+				9782D4572C53A2510064ADEB /* AWSGeneric.h */,
+				9782D4582C53A2510064ADEB /* AWSTask.h */,
+				9782D4592C53A2510064ADEB /* AWSTask.m */,
+				9782D45A2C53A2510064ADEB /* AWSTaskCompletionSource.h */,
+				9782D45B2C53A2510064ADEB /* AWSTaskCompletionSource.m */,
+			);
+			path = Bolts;
+			sourceTree = "<group>";
+		};
+		9782D4662C53A2510064ADEB /* CognitoIdentity */ = {
+			isa = PBXGroup;
+			children = (
+				9782D45D2C53A2510064ADEB /* AWSCognitoIdentity.h */,
+				9782D45E2C53A2510064ADEB /* AWSCognitoIdentity+Fabric.h */,
+				9782D45F2C53A2510064ADEB /* AWSCognitoIdentity+Fabric.m */,
+				9782D4602C53A2510064ADEB /* AWSCognitoIdentityModel.h */,
+				9782D4612C53A2510064ADEB /* AWSCognitoIdentityModel.m */,
+				9782D4622C53A2510064ADEB /* AWSCognitoIdentityResources.h */,
+				9782D4632C53A2510064ADEB /* AWSCognitoIdentityResources.m */,
+				9782D4642C53A2510064ADEB /* AWSCognitoIdentityService.h */,
+				9782D4652C53A2510064ADEB /* AWSCognitoIdentityService.m */,
+			);
+			path = CognitoIdentity;
+			sourceTree = "<group>";
+		};
+		9782D46B2C53A2510064ADEB /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4672C53A2510064ADEB /* FABAttributes.h */,
+				9782D4682C53A2510064ADEB /* FABKitProtocol.h */,
+				9782D4692C53A2510064ADEB /* Fabric.h */,
+				9782D46A2C53A2510064ADEB /* Fabric+FABKits.h */,
+			);
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		9782D47C2C53A2510064ADEB /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				9782D46C2C53A2510064ADEB /* AWSFMDatabase.h */,
+				9782D46D2C53A2510064ADEB /* AWSFMDatabase.m */,
+				9782D46E2C53A2510064ADEB /* AWSFMDatabase+Private.h */,
+				9782D46F2C53A2510064ADEB /* AWSFMDatabaseAdditions.h */,
+				9782D4702C53A2510064ADEB /* AWSFMDatabaseAdditions.m */,
+				9782D4712C53A2510064ADEB /* AWSFMDatabasePool.h */,
+				9782D4722C53A2510064ADEB /* AWSFMDatabasePool.m */,
+				9782D4732C53A2510064ADEB /* AWSFMDatabaseQueue.h */,
+				9782D4742C53A2510064ADEB /* AWSFMDatabaseQueue.m */,
+				9782D4752C53A2510064ADEB /* AWSFMDB.h */,
+				9782D4762C53A2510064ADEB /* AWSFMDB+AWSHelpers.h */,
+				9782D4772C53A2510064ADEB /* AWSFMDB+AWSHelpers.m */,
+				9782D4782C53A2510064ADEB /* AWSFMResultSet.h */,
+				9782D4792C53A2510064ADEB /* AWSFMResultSet.m */,
+				9782D47A2C53A2510064ADEB /* LICENSE.txt */,
+				9782D47B2C53A2510064ADEB /* README.markdown */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		9782D4812C53A2510064ADEB /* GZIP */ = {
+			isa = PBXGroup;
+			children = (
+				9782D47D2C53A2510064ADEB /* AWSGZIP.h */,
+				9782D47E2C53A2510064ADEB /* AWSGZIP.m */,
+				9782D47F2C53A2510064ADEB /* LICENCE.md */,
+				9782D4802C53A2510064ADEB /* README.md */,
+			);
+			path = GZIP;
+			sourceTree = "<group>";
+		};
+		9782D4842C53A2510064ADEB /* KSReachability */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4822C53A2510064ADEB /* AWSKSReachability.h */,
+				9782D4832C53A2510064ADEB /* AWSKSReachability.m */,
+			);
+			path = KSReachability;
+			sourceTree = "<group>";
+		};
+		9782D4902C53A2510064ADEB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4852C53A2510064ADEB /* AWSDDContextFilterLogFormatter.h */,
+				9782D4862C53A2510064ADEB /* AWSDDContextFilterLogFormatter.m */,
+				9782D4872C53A2510064ADEB /* AWSDDContextFilterLogFormatter+Deprecated.h */,
+				9782D4882C53A2510064ADEB /* AWSDDContextFilterLogFormatter+Deprecated.m */,
+				9782D4892C53A2510064ADEB /* AWSDDDispatchQueueLogFormatter.h */,
+				9782D48A2C53A2510064ADEB /* AWSDDDispatchQueueLogFormatter.m */,
+				9782D48B2C53A2510064ADEB /* AWSDDFileLogger+Buffering.h */,
+				9782D48C2C53A2510064ADEB /* AWSDDFileLogger+Buffering.m */,
+				9782D48D2C53A2510064ADEB /* AWSDDFileLogger+Internal.h */,
+				9782D48E2C53A2510064ADEB /* AWSDDLog+Optional.swift */,
+				9782D48F2C53A2510064ADEB /* AWSDDMultiFormatter.h */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9782D4A92C53A2510064ADEB /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4902C53A2510064ADEB /* Extensions */,
+				9782D4912C53A2510064ADEB /* AWSCLIColor.h */,
+				9782D4922C53A2510064ADEB /* AWSCLIColor.m */,
+				9782D4932C53A2510064ADEB /* AWSCocoaLumberjack.h */,
+				9782D4942C53A2510064ADEB /* AWSDDAbstractDatabaseLogger.h */,
+				9782D4952C53A2510064ADEB /* AWSDDAbstractDatabaseLogger.m */,
+				9782D4962C53A2510064ADEB /* AWSDDASLLogCapture.h */,
+				9782D4972C53A2510064ADEB /* AWSDDASLLogCapture.m */,
+				9782D4982C53A2510064ADEB /* AWSDDASLLogger.h */,
+				9782D4992C53A2510064ADEB /* AWSDDASLLogger.m */,
+				9782D49A2C53A2510064ADEB /* AWSDDAssertMacros.h */,
+				9782D49B2C53A2510064ADEB /* AWSDDFileLogger.h */,
+				9782D49C2C53A2510064ADEB /* AWSDDFileLogger.m */,
+				9782D49D2C53A2510064ADEB /* AWSDDLegacyMacros.h */,
+				9782D49E2C53A2510064ADEB /* AWSDDLog.h */,
+				9782D49F2C53A2510064ADEB /* AWSDDLog.m */,
+				9782D4A02C53A2510064ADEB /* AWSDDLog+LOGV.h */,
+				9782D4A12C53A2510064ADEB /* AWSDDLoggerNames.h */,
+				9782D4A22C53A2510064ADEB /* AWSDDLoggerNames.m */,
+				9782D4A32C53A2510064ADEB /* AWSDDLogMacros.h */,
+				9782D4A42C53A2510064ADEB /* AWSDDMultiFormatter.m */,
+				9782D4A52C53A2510064ADEB /* AWSDDOSLogger.h */,
+				9782D4A62C53A2510064ADEB /* AWSDDOSLogger.m */,
+				9782D4A72C53A2510064ADEB /* AWSDDTTYLogger.h */,
+				9782D4A82C53A2510064ADEB /* AWSDDTTYLogger.m */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		9782D4B02C53A2510064ADEB /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4AA2C53A2510064ADEB /* AWSEXTKeyPathCoding.h */,
+				9782D4AB2C53A2510064ADEB /* AWSEXTRuntimeExtensions.h */,
+				9782D4AC2C53A2510064ADEB /* AWSEXTRuntimeExtensions.m */,
+				9782D4AD2C53A2510064ADEB /* AWSEXTScope.h */,
+				9782D4AE2C53A2510064ADEB /* AWSEXTScope.m */,
+				9782D4AF2C53A2510064ADEB /* AWSmetamacros.h */,
+			);
+			path = extobjc;
+			sourceTree = "<group>";
+		};
+		9782D4CC2C53A2510064ADEB /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4B02C53A2510064ADEB /* extobjc */,
+				9782D4B12C53A2510064ADEB /* AWSMantle.h */,
+				9782D4B22C53A2510064ADEB /* AWSMTLJSONAdapter.h */,
+				9782D4B32C53A2510064ADEB /* AWSMTLJSONAdapter.m */,
+				9782D4B42C53A2510064ADEB /* AWSMTLManagedObjectAdapter.h */,
+				9782D4B52C53A2510064ADEB /* AWSMTLManagedObjectAdapter.m */,
+				9782D4B62C53A2510064ADEB /* AWSMTLModel.h */,
+				9782D4B72C53A2510064ADEB /* AWSMTLModel.m */,
+				9782D4B82C53A2510064ADEB /* AWSMTLModel+NSCoding.h */,
+				9782D4B92C53A2510064ADEB /* AWSMTLModel+NSCoding.m */,
+				9782D4BA2C53A2510064ADEB /* AWSMTLReflection.h */,
+				9782D4BB2C53A2510064ADEB /* AWSMTLReflection.m */,
+				9782D4BC2C53A2510064ADEB /* AWSMTLValueTransformer.h */,
+				9782D4BD2C53A2510064ADEB /* AWSMTLValueTransformer.m */,
+				9782D4BE2C53A2510064ADEB /* LICENSE.md */,
+				9782D4BF2C53A2510064ADEB /* NSArray+AWSMTLManipulationAdditions.h */,
+				9782D4C02C53A2510064ADEB /* NSArray+AWSMTLManipulationAdditions.m */,
+				9782D4C12C53A2510064ADEB /* NSDictionary+AWSMTLManipulationAdditions.h */,
+				9782D4C22C53A2510064ADEB /* NSDictionary+AWSMTLManipulationAdditions.m */,
+				9782D4C32C53A2510064ADEB /* NSError+AWSMTLModelException.h */,
+				9782D4C42C53A2510064ADEB /* NSError+AWSMTLModelException.m */,
+				9782D4C52C53A2510064ADEB /* NSObject+AWSMTLComparisonAdditions.h */,
+				9782D4C62C53A2510064ADEB /* NSObject+AWSMTLComparisonAdditions.m */,
+				9782D4C72C53A2510064ADEB /* NSValueTransformer+AWSMTLInversionAdditions.h */,
+				9782D4C82C53A2510064ADEB /* NSValueTransformer+AWSMTLInversionAdditions.m */,
+				9782D4C92C53A2510064ADEB /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h */,
+				9782D4CA2C53A2510064ADEB /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m */,
+				9782D4CB2C53A2510064ADEB /* README.md */,
+			);
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		9782D4D32C53A2510064ADEB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4CD2C53A2510064ADEB /* AWSNetworking.h */,
+				9782D4CE2C53A2510064ADEB /* AWSNetworking.m */,
+				9782D4CF2C53A2510064ADEB /* AWSNetworkingHelpers.h */,
+				9782D4D02C53A2510064ADEB /* AWSNetworkingHelpers.m */,
+				9782D4D12C53A2510064ADEB /* AWSURLSessionManager.h */,
+				9782D4D22C53A2510064ADEB /* AWSURLSessionManager.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9782D4D62C53A2510064ADEB /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4D42C53A2510064ADEB /* LICENCE.txt */,
+				9782D4D52C53A2510064ADEB /* README.md */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		9782D4E32C53A2510064ADEB /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4D72C53A2510064ADEB /* AWSSerialization.h */,
+				9782D4D82C53A2510064ADEB /* AWSSerialization.m */,
+				9782D4D92C53A2510064ADEB /* AWSTimestampSerialization.h */,
+				9782D4DA2C53A2510064ADEB /* AWSTimestampSerialization.m */,
+				9782D4DB2C53A2510064ADEB /* AWSURLRequestRetryHandler.h */,
+				9782D4DC2C53A2510064ADEB /* AWSURLRequestRetryHandler.m */,
+				9782D4DD2C53A2510064ADEB /* AWSURLRequestSerialization.h */,
+				9782D4DE2C53A2510064ADEB /* AWSURLRequestSerialization.m */,
+				9782D4DF2C53A2510064ADEB /* AWSURLResponseSerialization.h */,
+				9782D4E02C53A2510064ADEB /* AWSURLResponseSerialization.m */,
+				9782D4E12C53A2510064ADEB /* AWSValidation.h */,
+				9782D4E22C53A2510064ADEB /* AWSValidation.m */,
+			);
+			path = Serialization;
+			sourceTree = "<group>";
+		};
+		9782D4EB2C53A2510064ADEB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4E42C53A2510064ADEB /* AWSClientContext.h */,
+				9782D4E52C53A2510064ADEB /* AWSClientContext.m */,
+				9782D4E62C53A2510064ADEB /* AWSInfo.h */,
+				9782D4E72C53A2510064ADEB /* AWSInfo.m */,
+				9782D4E82C53A2510064ADEB /* AWSService.h */,
+				9782D4E92C53A2510064ADEB /* AWSService.m */,
+				9782D4EA2C53A2510064ADEB /* AWSServiceEnum.h */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9782D4F42C53A2510064ADEB /* STS */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4EC2C53A2510064ADEB /* AWSSTS.h */,
+				9782D4ED2C53A2510064ADEB /* AWSSTSModel.h */,
+				9782D4EE2C53A2510064ADEB /* AWSSTSModel.m */,
+				9782D4EF2C53A2510064ADEB /* AWSSTSResources.h */,
+				9782D4F02C53A2510064ADEB /* AWSSTSResources.m */,
+				9782D4F12C53A2510064ADEB /* AWSSTSService.h */,
+				9782D4F22C53A2510064ADEB /* AWSSTSService.m */,
+				9782D4F32C53A2510064ADEB /* Info.plist */,
+			);
+			path = STS;
+			sourceTree = "<group>";
+		};
+		9782D4F72C53A2510064ADEB /* TMCache */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4F52C53A2510064ADEB /* LICENSE.txt */,
+				9782D4F62C53A2510064ADEB /* README.md */,
+			);
+			path = TMCache;
+			sourceTree = "<group>";
+		};
+		9782D4FC2C53A2510064ADEB /* UICKeyChainStore */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4F82C53A2510064ADEB /* AWSUICKeyChainStore.h */,
+				9782D4F92C53A2510064ADEB /* AWSUICKeyChainStore.m */,
+				9782D4FA2C53A2510064ADEB /* LICENSE */,
+				9782D4FB2C53A2510064ADEB /* README.md */,
+			);
+			path = UICKeyChainStore;
+			sourceTree = "<group>";
+		};
+		9782D5072C53A2510064ADEB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9782D4FD2C53A2510064ADEB /* AWSCategory.h */,
+				9782D4FE2C53A2510064ADEB /* AWSCategory.m */,
+				9782D4FF2C53A2510064ADEB /* AWSLogging.h */,
+				9782D5002C53A2510064ADEB /* AWSLogging.m */,
+				9782D5012C53A2510064ADEB /* AWSModel.h */,
+				9782D5022C53A2510064ADEB /* AWSModel.m */,
+				9782D5032C53A2510064ADEB /* AWSNSCodingUtilities.h */,
+				9782D5042C53A2510064ADEB /* AWSNSCodingUtilities.m */,
+				9782D5052C53A2510064ADEB /* AWSSynchronizedMutableDictionary.h */,
+				9782D5062C53A2510064ADEB /* AWSSynchronizedMutableDictionary.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9782D50C2C53A2510064ADEB /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				9782D5082C53A2510064ADEB /* AWSXMLDictionary.h */,
+				9782D5092C53A2510064ADEB /* AWSXMLDictionary.m */,
+				9782D50A2C53A2510064ADEB /* LICENCE.md */,
+				9782D50B2C53A2510064ADEB /* README.md */,
+			);
+			path = XMLDictionary;
+			sourceTree = "<group>";
+		};
+		9782D50F2C53A2510064ADEB /* XMLWriter */ = {
+			isa = PBXGroup;
+			children = (
+				9782D50D2C53A2510064ADEB /* AWSXMLWriter.h */,
+				9782D50E2C53A2510064ADEB /* AWSXMLWriter.m */,
+			);
+			path = XMLWriter;
+			sourceTree = "<group>";
+		};
+		9782D5132C53A2510064ADEB /* AWSCore */ = {
+			isa = PBXGroup;
+			children = (
+				9782D44C2C53A2510064ADEB /* Authentication */,
+				9782D45C2C53A2510064ADEB /* Bolts */,
+				9782D4662C53A2510064ADEB /* CognitoIdentity */,
+				9782D46B2C53A2510064ADEB /* Fabric */,
+				9782D47C2C53A2510064ADEB /* FMDB */,
+				9782D4812C53A2510064ADEB /* GZIP */,
+				9782D4842C53A2510064ADEB /* KSReachability */,
+				9782D4A92C53A2510064ADEB /* Logging */,
+				9782D4CC2C53A2510064ADEB /* Mantle */,
+				9782D4D32C53A2510064ADEB /* Networking */,
+				9782D4D62C53A2510064ADEB /* Reachability */,
+				9782D4E32C53A2510064ADEB /* Serialization */,
+				9782D4EB2C53A2510064ADEB /* Service */,
+				9782D4F42C53A2510064ADEB /* STS */,
+				9782D4F72C53A2510064ADEB /* TMCache */,
+				9782D4FC2C53A2510064ADEB /* UICKeyChainStore */,
+				9782D5072C53A2510064ADEB /* Utility */,
+				9782D50C2C53A2510064ADEB /* XMLDictionary */,
+				9782D50F2C53A2510064ADEB /* XMLWriter */,
+				9782D5102C53A2510064ADEB /* AWSCore.h */,
+				9782D5112C53A2510064ADEB /* Info.plist */,
+				9782D5122C53A2510064ADEB /* PrivacyInfo.xcprivacy */,
+			);
+			path = AWSCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9782D4262C53A2270064ADEB /* AWSCore-WM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9782D4432C53A2290064ADEB /* Build configuration list for PBXNativeTarget "AWSCore-WM" */;
+			buildPhases = (
+				9782D4232C53A2270064ADEB /* Sources */,
+				9782D4242C53A2270064ADEB /* Frameworks */,
+				9782D4252C53A2270064ADEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AWSCore-WM";
+			productName = "AWSCore-WM";
+			productReference = 9782D4272C53A2270064ADEB /* AWSCore-WM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9782D41F2C53A2270064ADEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9782D4262C53A2270064ADEB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 9782D4222C53A2270064ADEB /* Build configuration list for PBXProject "AWSCore-WM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9782D41E2C53A2270064ADEB;
+			productRefGroup = 9782D4282C53A2270064ADEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9782D4262C53A2270064ADEB /* AWSCore-WM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9782D4252C53A2270064ADEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9782D5502C53A2510064ADEB /* LICENCE.txt in Resources */,
+				9782D5282C53A2510064ADEB /* LICENSE.txt in Resources */,
+				9782D5292C53A2510064ADEB /* README.markdown in Resources */,
+				9782D52B2C53A2510064ADEB /* LICENCE.md in Resources */,
+				9782D52C2C53A2510064ADEB /* README.md in Resources */,
+				9782D55F2C53A2510064ADEB /* LICENSE.txt in Resources */,
+				9782D56B2C53A2510064ADEB /* README.md in Resources */,
+				9782D5632C53A2510064ADEB /* README.md in Resources */,
+				9782D5452C53A2510064ADEB /* LICENSE.md in Resources */,
+				9782D56D2C53A2510064ADEB /* Info.plist in Resources */,
+				9782D43A2C53A2290064ADEB /* Assets.xcassets in Resources */,
+				9782D56A2C53A2510064ADEB /* LICENCE.md in Resources */,
+				9782D54C2C53A2510064ADEB /* README.md in Resources */,
+				9782D5622C53A2510064ADEB /* LICENSE in Resources */,
+				9782D55E2C53A2510064ADEB /* Info.plist in Resources */,
+				9782D5602C53A2510064ADEB /* README.md in Resources */,
+				9782D43D2C53A2290064ADEB /* Base in Resources */,
+				9782D5512C53A2510064ADEB /* README.md in Resources */,
+				9782D56E2C53A2510064ADEB /* PrivacyInfo.xcprivacy in Resources */,
+				9782D4382C53A2270064ADEB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9782D4232C53A2270064ADEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9782D5302C53A2510064ADEB /* AWSDDDispatchQueueLogFormatter.m in Sources */,
+				9782D51E2C53A2510064ADEB /* AWSCognitoIdentity+Fabric.m in Sources */,
+				9782D53E2C53A2510064ADEB /* AWSEXTScope.m in Sources */,
+				9782D5562C53A2510064ADEB /* AWSURLResponseSerialization.m in Sources */,
+				9782D5642C53A2510064ADEB /* AWSCategory.m in Sources */,
+				9782D5682C53A2510064ADEB /* AWSSynchronizedMutableDictionary.m in Sources */,
+				9782D5672C53A2510064ADEB /* AWSNSCodingUtilities.m in Sources */,
+				9782D5212C53A2510064ADEB /* AWSCognitoIdentityService.m in Sources */,
+				9782D51B2C53A2510064ADEB /* AWSExecutor.m in Sources */,
+				9782D5692C53A2510064ADEB /* AWSXMLDictionary.m in Sources */,
+				9782D5272C53A2510064ADEB /* AWSFMResultSet.m in Sources */,
+				9782D5492C53A2510064ADEB /* NSObject+AWSMTLComparisonAdditions.m in Sources */,
+				9782D5182C53A2510064ADEB /* AWSCancellationToken.m in Sources */,
+				9782D5412C53A2510064ADEB /* AWSMTLModel.m in Sources */,
+				9782D5262C53A2510064ADEB /* AWSFMDB+AWSHelpers.m in Sources */,
+				9782D51C2C53A2510064ADEB /* AWSTask.m in Sources */,
+				9782D53F2C53A2510064ADEB /* AWSMTLJSONAdapter.m in Sources */,
+				9782D5572C53A2510064ADEB /* AWSValidation.m in Sources */,
+				9782D51A2C53A2510064ADEB /* AWSCancellationTokenSource.m in Sources */,
+				9782D5202C53A2510064ADEB /* AWSCognitoIdentityResources.m in Sources */,
+				9782D5312C53A2510064ADEB /* AWSDDFileLogger+Buffering.m in Sources */,
+				9782D4402C53A2290064ADEB /* main.m in Sources */,
+				9782D5382C53A2510064ADEB /* AWSDDLog.m in Sources */,
+				9782D52D2C53A2510064ADEB /* AWSKSReachability.m in Sources */,
+				9782D5442C53A2510064ADEB /* AWSMTLValueTransformer.m in Sources */,
+				9782D5592C53A2510064ADEB /* AWSInfo.m in Sources */,
+				9782D5142C53A2510064ADEB /* AWSCredentialsProvider.m in Sources */,
+				9782D51D2C53A2510064ADEB /* AWSTaskCompletionSource.m in Sources */,
+				9782D4352C53A2270064ADEB /* Document.m in Sources */,
+				9782D42F2C53A2270064ADEB /* DocumentBrowserViewController.m in Sources */,
+				9782D54D2C53A2510064ADEB /* AWSNetworking.m in Sources */,
+				9782D55A2C53A2510064ADEB /* AWSService.m in Sources */,
+				9782D5152C53A2510064ADEB /* AWSIdentityProvider.m in Sources */,
+				9782D5352C53A2510064ADEB /* AWSDDASLLogCapture.m in Sources */,
+				9782D5522C53A2510064ADEB /* AWSSerialization.m in Sources */,
+				9782D5342C53A2510064ADEB /* AWSDDAbstractDatabaseLogger.m in Sources */,
+				9782D55C2C53A2510064ADEB /* AWSSTSResources.m in Sources */,
+				9782D5222C53A2510064ADEB /* AWSFMDatabase.m in Sources */,
+				9782D53D2C53A2510064ADEB /* AWSEXTRuntimeExtensions.m in Sources */,
+				9782D5582C53A2510064ADEB /* AWSClientContext.m in Sources */,
+				9782D5252C53A2510064ADEB /* AWSFMDatabaseQueue.m in Sources */,
+				9782D5332C53A2510064ADEB /* AWSCLIColor.m in Sources */,
+				9782D52E2C53A2510064ADEB /* AWSDDContextFilterLogFormatter.m in Sources */,
+				9782D5462C53A2510064ADEB /* NSArray+AWSMTLManipulationAdditions.m in Sources */,
+				9782D52A2C53A2510064ADEB /* AWSGZIP.m in Sources */,
+				9782D5542C53A2510064ADEB /* AWSURLRequestRetryHandler.m in Sources */,
+				9782D5662C53A2510064ADEB /* AWSModel.m in Sources */,
+				9782D56C2C53A2510064ADEB /* AWSXMLWriter.m in Sources */,
+				9782D5532C53A2510064ADEB /* AWSTimestampSerialization.m in Sources */,
+				9782D51F2C53A2510064ADEB /* AWSCognitoIdentityModel.m in Sources */,
+				9782D4322C53A2270064ADEB /* DocumentViewController.m in Sources */,
+				9782D5322C53A2510064ADEB /* AWSDDLog+Optional.swift in Sources */,
+				9782D53C2C53A2510064ADEB /* AWSDDTTYLogger.m in Sources */,
+				9782D5482C53A2510064ADEB /* NSError+AWSMTLModelException.m in Sources */,
+				9782D54A2C53A2510064ADEB /* NSValueTransformer+AWSMTLInversionAdditions.m in Sources */,
+				9782D5162C53A2510064ADEB /* AWSSignature.m in Sources */,
+				9782D54B2C53A2510064ADEB /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m in Sources */,
+				9782D5172C53A2510064ADEB /* AWSBolts.m in Sources */,
+				9782D55D2C53A2510064ADEB /* AWSSTSService.m in Sources */,
+				9782D5612C53A2510064ADEB /* AWSUICKeyChainStore.m in Sources */,
+				9782D5362C53A2510064ADEB /* AWSDDASLLogger.m in Sources */,
+				9782D5402C53A2510064ADEB /* AWSMTLManagedObjectAdapter.m in Sources */,
+				9782D5192C53A2510064ADEB /* AWSCancellationTokenRegistration.m in Sources */,
+				9782D5552C53A2510064ADEB /* AWSURLRequestSerialization.m in Sources */,
+				9782D5242C53A2510064ADEB /* AWSFMDatabasePool.m in Sources */,
+				9782D5432C53A2510064ADEB /* AWSMTLReflection.m in Sources */,
+				9782D5652C53A2510064ADEB /* AWSLogging.m in Sources */,
+				9782D55B2C53A2510064ADEB /* AWSSTSModel.m in Sources */,
+				9782D5472C53A2510064ADEB /* NSDictionary+AWSMTLManipulationAdditions.m in Sources */,
+				9782D54E2C53A2510064ADEB /* AWSNetworkingHelpers.m in Sources */,
+				9782D53A2C53A2510064ADEB /* AWSDDMultiFormatter.m in Sources */,
+				9782D42C2C53A2270064ADEB /* AppDelegate.m in Sources */,
+				9782D5422C53A2510064ADEB /* AWSMTLModel+NSCoding.m in Sources */,
+				9782D54F2C53A2510064ADEB /* AWSURLSessionManager.m in Sources */,
+				9782D5232C53A2510064ADEB /* AWSFMDatabaseAdditions.m in Sources */,
+				9782D53B2C53A2510064ADEB /* AWSDDOSLogger.m in Sources */,
+				9782D5372C53A2510064ADEB /* AWSDDFileLogger.m in Sources */,
+				9782D52F2C53A2510064ADEB /* AWSDDContextFilterLogFormatter+Deprecated.m in Sources */,
+				9782D5392C53A2510064ADEB /* AWSDDLoggerNames.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9782D4362C53A2270064ADEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9782D4372C53A2270064ADEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9782D43B2C53A2290064ADEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9782D43C2C53A2290064ADEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9782D4412C53A2290064ADEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9782D4422C53A2290064ADEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9782D4442C53A2290064ADEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AWSCore-WM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dineroya.AWSCore-WM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9782D4452C53A2290064ADEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AWSCore-WM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dineroya.AWSCore-WM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9782D4222C53A2270064ADEB /* Build configuration list for PBXProject "AWSCore-WM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9782D4412C53A2290064ADEB /* Debug */,
+				9782D4422C53A2290064ADEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9782D4432C53A2290064ADEB /* Build configuration list for PBXNativeTarget "AWSCore-WM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9782D4442C53A2290064ADEB /* Debug */,
+				9782D4452C53A2290064ADEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9782D41F2C53A2270064ADEB /* Project object */;
+}
