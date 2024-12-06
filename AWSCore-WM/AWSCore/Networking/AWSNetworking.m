@@ -375,8 +375,8 @@ NSString *const AWSNetworkingErrorDomain = @"com.amazonaws.AWSNetworkingErrorDom
 }
 
 - (AWSTask *)interceptRequest:(NSMutableURLRequest *)request {
-    [request setValue:[[NSDate aws_clockSkewFixedDate] aws_stringValue:AWSDateISO8601DateFormat2]
-   forHTTPHeaderField:@"X-Amz-Date"];
+//    [request setValue:[[NSDate aws_clockSkewFixedDate] aws_stringValue:AWSDateISO8601DateFormat2]
+//   forHTTPHeaderField:@"X-Amz-Date"];
 
     [request setValue:self.userAgent
    forHTTPHeaderField:@"User-Agent"];
