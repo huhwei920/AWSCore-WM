@@ -375,11 +375,11 @@ NSString *const AWSNetworkingErrorDomain = @"com.amazonaws.AWSNetworkingErrorDom
 }
 
 - (AWSTask *)interceptRequest:(NSMutableURLRequest *)request {
-//    [request setValue:[[NSDate aws_clockSkewFixedDate] aws_stringValue:AWSDateISO8601DateFormat2]
-//   forHTTPHeaderField:@"X-Amz-Date"];
+    if ([request.URL.absoluteString containsString:@".myhuaweicloud.com"]) {
+        [request setValue:[[NSDate aws_clockSkewFixedDate] aws_stringValue:AWSDateISO8601DateFormat2] forHTTPHeaderField:@"X-Amz-Date"];
+    }
 
-    [request setValue:self.userAgent
-   forHTTPHeaderField:@"User-Agent"];
+    [request setValue:self.userAgent forHTTPHeaderField:@"User-Agent"];
     
     return [AWSTask taskWithResult:nil];
 }
